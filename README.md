@@ -50,6 +50,10 @@ The Internet of Things (IoT) introduces a new way of enabling a wide range of ap
 ## Notebook
 The accompanying Jupyter Notebook `bml-ToN-Num.ipynb` contains all the steps of the research paper, including data preprocessing, feature selection, model training, and evaluation.
 
+### Experimental design
+
+![Experimental Design](experimental_design.png)
+
 ### Notebook Steps
 1. **Importing Libraries and Loading Data**:
     - Import necessary libraries such as pandas and warnings.

@@ -1,0 +1,12 @@
+# Ensure the repository is packed
+git gc --aggressive --prune=now
+
+# Run BFG Repo-Cleaner to remove files larger than 90MB
+java -jar bfg.jar --strip-blobs-bigger-than 90M .
+
+# Clean up the repository
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+
+# Force push the changes to the remote repository
+git push --force
