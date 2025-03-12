@@ -46,13 +46,17 @@ The Internet of Things (IoT) introduces a new way of enabling a wide range of ap
 5. **Experimental Design and Results**
 6. **Discussion**
 7. **Limitations and Future Work**
+## Experimental design
 
+![Experimental Design](experimental_design.png)
 ## Notebook
 The accompanying Jupyter Notebook `bml-ToN-Num.ipynb` contains all the steps of the research paper, including data preprocessing, feature selection, model training, and evaluation.
 
-### Experimental design
+## Performance Metrics
+The folders `NF-BoT-IoT-v2_Results_Performances_Models` and `NF-ToN-IoT-v2_Results_Performances_Models` contain JSON files with the performance measurements of the machine learning models. These files include metrics evaluation criteria.
+## Model Deployment
+The zip files `NF-BoT-IoT-v2_TinyML_Models_Arduino_C.zip` and `NF-ToN-IoT-v2_TinyML_Models_Arduino_C.zip` contain the code for all generated models to deploy on Arduino. You can perform further experimentation, such as measuring energy consumption, to enhance the evaluation of the models.
 
-![Experimental Design](experimental_design.png)
 
 ### Notebook Steps
 1. **Importing Libraries and Loading Data**:
@@ -102,10 +106,7 @@ Open `Notebook.ipynb` in Jupyter Notebook or JupyterLab and follow the steps out
 - Python 3.8 or higher
 - Jupyter Notebook
 - Required Python libraries (specified in `requirements.txt`)
-## Performance Metrics
-The folders `NF-BoT-IoT-v2_Results_Performances_Models` and `NF-ToN-IoT-v2_Results_Performances_Models` contain JSON files with the performance measurements of the machine learning models. These files include metrics evaluation criteria.
-## Model Deployment
-The zip files `NF-BoT-IoT-v2_TinyML_Models_Arduino_C.zip` and `NF-ToN-IoT-v2_TinyML_Models_Arduino_C.zip` contain the code for all generated models to deploy on Arduino. You can perform further experimentation, such as measuring energy consumption, to enhance the evaluation of the models.
+
 
 ## Citation
 If you use this work, please cite the paper as follows:
