@@ -93,6 +93,7 @@ The accompanying Jupyter Notebook `bml-ToN-Num.ipynb` contains all the steps of 
 3. **Run the Notebook**
 Open `Notebook.ipynb` in Jupyter Notebook or JupyterLab and follow the steps outlined in the notebook. This notebook uses the NF-ToN-IoT-v2 dataset, but you can replace it with the NF-BoT-IoT-v2 dataset. You should download the two datasets used from [this link](https://staff.itee.uq.edu.au/marius/NIDS_datasets/).
 
+
 ## Requirements
 - Python 3.8 or higher
 - Jupyter Notebook
@@ -100,7 +101,7 @@ Open `Notebook.ipynb` in Jupyter Notebook or JupyterLab and follow the steps out
 ## Performance Metrics
 The folders `NF-BoT-IoT-v2_Results_Performances_Models` and `NF-ToN-IoT-v2_Results_Performances_Models` contain JSON files with the performance measurements of the machine learning models. These files include metrics evaluation criteria.
 ## Model Deployment
-The folders `NF-BoT-IoT-v2_TinyML_Models_Arduino_C` and `NF-ToN-IoT-v2_TinyML_Models_Arduino_C` contain the code for all generated models to deploy on Arduino. You can perform further experimentation, such as measuring energy consumption, to enhance the evaluation of the models.
+The zip files `NF-BoT-IoT-v2_TinyML_Models_Arduino_C.zip` and `NF-ToN-IoT-v2_TinyML_Models_Arduino_C.zip` contain the code for all generated models to deploy on Arduino. You can perform further experimentation, such as measuring energy consumption, to enhance the evaluation of the models.
 
 ## Citation
 If you use this work, please cite the paper as follows:
